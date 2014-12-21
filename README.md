@@ -53,7 +53,7 @@ client.setMediaType('hal');
 var root;
 var orders;
 client.get('/restbucks/api').then(function(model) {
-  root = HyperActivate(model);
+  root = client.hyperActivate(model);
 });
 root.get('orders').then(function(response) {
   orders = orders;
@@ -112,7 +112,7 @@ So for the following example of hal+json
 If you once `HyperActivate` the response:
 
 ```
-var user = HyperActivate(response);
+var user = client.hyperActivate(response);
 ```
 You would still use the `get` method to access embedded documents, so that you know you are using each model using exactly the same promise.
 

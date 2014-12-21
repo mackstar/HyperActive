@@ -1,0 +1,28 @@
+{
+  "name": "hyperactive",
+  "version": "0.0.1",
+  "description": "A native JavaScript Hypermedia Client.",
+  "main": "lib/hyperactive.js",
+  "scripts": {
+    "test": "jasmine test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mackstar/HyperActive.git"
+  },
+  "keywords": [
+    "Hypermedia",
+    "Javascript",
+    "REST"
+  ],
+  "author": "Richard McIntyre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mackstar/HyperActive/issues"
+  },
+  "homepage": "https://github.com/mackstar/HyperActive",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jasmine": "^0.8.1"
+  }
+}
